@@ -15,3 +15,6 @@
 //     return view('welcome');
 // });
 Route::get('/', 'SiteController@index');
+Route::get('/about', 'SiteController@about')->name('siteAbout');
+Route::get('/portfolio', 'SiteController@portfolio')->name('portFolio');
+Route::get('/contact', 'SiteController@contact')->name('contactUs');

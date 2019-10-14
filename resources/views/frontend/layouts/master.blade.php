@@ -37,10 +37,10 @@ http://www.templatemo.com/tm-468-onetel
 			</div>
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="index.html" class="active">HOME</a></li>
-					<li><a href="about.html">ABOUT US</a></li>
-					<li><a href="portfolio.html">PORTFOLIO</a></li>
-					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="/" class="active">HOME</a></li>
+					<li><a href="{{route('siteAbout')}}">ABOUT US</a></li>
+					<li><a href="{{route('portFolio')}}">PORTFOLIO</a></li>
+					<li><a href="{{route('contactUs')}}">CONTACT</a></li>
 				</ul>
 			</div>
 		</div>
